@@ -1,0 +1,483 @@
+[
+  {
+    "source": "User enters log in portal",
+    "steps": [
+      {
+        "name": "User enters log in portal",
+        "aggregatedDurations": {
+          "median": 0.003,
+          "average": 0.003
+        },
+        "durations": [
+          {
+            "duration": 0.003,
+            "location": "classpath:com/wiley/features/RetailStore.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the portal link",
+    "steps": [
+      {
+        "name": "user enters the portal link",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "enters the email as {string}",
+    "steps": [
+      {
+        "name": "enters the email as \"abc@gmail.com\"",
+        "aggregatedDurations": {
+          "median": 0.003,
+          "average": 0.003
+        },
+        "durations": [
+          {
+            "duration": 0.003,
+            "location": "classpath:com/wiley/features/RetailStore.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "enters password as {int}",
+    "steps": [
+      {
+        "name": "enters password as 2468",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user logs in",
+    "steps": [
+      {
+        "name": "user logs in",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:28"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:35"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:44"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "credentials are verified",
+    "steps": [
+      {
+        "name": "credentials are verified",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is redirected to the main page",
+    "steps": [
+      {
+        "name": "user is redirected to the main page",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is displayed with the stock present",
+    "steps": [
+      {
+        "name": "User is displayed with the stock present",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.001666666
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:34"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:43"
+          },
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user selects the items to purchase",
+    "steps": [
+      {
+        "name": "user selects the items to purchase",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the quantities",
+    "steps": [
+      {
+        "name": "user enters the quantities",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "selected items and quantities are validated",
+    "steps": [
+      {
+        "name": "selected items and quantities are validated",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001333333
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:38"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:47"
+          },
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is asked to either confirm purchase or select more items",
+    "steps": [
+      {
+        "name": "user is asked to either confirm purchase or select more items",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 6.66666E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:com/wiley/features/RetailStore.feature:39"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:48"
+          },
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user selects the items to purchase as Empathy-Do",
+    "steps": [
+      {
+        "name": "user selects the items to purchase as Empathy-Do",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:com/wiley/features/RetailStore.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the quantities as {int}",
+    "steps": [
+      {
+        "name": "user enters the quantities as 4",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:com/wiley/features/RetailStore.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "user enters the quantities as 2",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user selects the items to purchase as The Finisher",
+    "steps": [
+      {
+        "name": "user selects the items to purchase as The Finisher",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User confirms purchase",
+    "steps": [
+      {
+        "name": "User confirms purchase",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "finishing with item selection",
+    "steps": [
+      {
+        "name": "finishing with item selection",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "order details are placed",
+    "steps": [
+      {
+        "name": "order details are placed",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "total amount to be paid is displayed",
+    "steps": [
+      {
+        "name": "total amount to be paid is displayed",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Bill id is also displayed",
+    "steps": [
+      {
+        "name": "Bill id is also displayed",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "purchase is confirmed",
+    "steps": [
+      {
+        "name": "purchase is confirmed",
+        "aggregatedDurations": {
+          "median": 0.004,
+          "average": 0.004
+        },
+        "durations": [
+          {
+            "duration": 0.004,
+            "location": "classpath:com/wiley/features/RetailStore.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "order details and stored in inventory",
+    "steps": [
+      {
+        "name": "order details and stored in inventory",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is displayed the purchase history",
+    "steps": [
+      {
+        "name": "User is displayed the purchase history",
+        "aggregatedDurations": {
+          "median": 0.002,
+          "average": 0.002
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "classpath:com/wiley/features/RetailStore.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "selecting View Purchases",
+    "steps": [
+      {
+        "name": "selecting View Purchases",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "classpath:com/wiley/features/RetailStore.feature:68"
+          }
+        ]
+      }
+    ]
+  }
+]

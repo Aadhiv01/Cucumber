@@ -1,0 +1,52 @@
+
+@login
+Scenario: Retail Store Portal Login       [90m# com/wiley/features/RetailStore.feature:23[0m
+  [32mGiven [0m[32mUser enters log in portal[0m         [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_enters_log_in_portal()[0m
+  [32mWhen [0m[32muser enters the portal link[0m        [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_enters_the_portal_link()[0m
+  [32mAnd [0m[32menters the email as [0m[32m[1m"abc@gmail.com"[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.enters_the_email_as(java.lang.String)[0m
+  [32mAnd [0m[32menters password as [0m[32m[1m2468[0m             [90m# com.wiley.stepDefinitions.RetailStoreSteps.enters_password_as(java.lang.Integer)[0m
+  [32mAnd [0m[32muser logs in[0m                        [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_logs_in()[0m
+  [32mThen [0m[32mcredentials are verified[0m           [90m# com.wiley.stepDefinitions.RetailStoreSteps.credentials_are_verified()[0m
+  [32mAnd [0m[32muser is redirected to the main page[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_redirected_to_the_main_page()[0m
+
+@purchase
+Scenario: Retail Store Portal purchase                              [90m# com/wiley/features/RetailStore.feature:33[0m
+  [32mGiven [0m[32mUser is displayed with the stock present[0m                    [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_displayed_with_the_stock_present()[0m
+  [32mWhen [0m[32muser logs in[0m                                                 [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_logs_in()[0m
+  [32mAnd [0m[32muser selects the items to purchase[0m                            [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_selects_the_items_to_purchase()[0m
+  [32mAnd [0m[32muser enters the quantities[0m                                    [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_enters_the_quantities()[0m
+  [32mThen [0m[32mselected items and quantities are validated[0m                  [90m# com.wiley.stepDefinitions.RetailStoreSteps.selected_items_and_quantities_are_validated()[0m
+  [32mAnd [0m[32muser is asked to either confirm purchase or select more items[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_asked_to_either_confirm_purchase_or_select_more_items()[0m
+
+@purchase
+Scenario Outline: Retail Store Portal purchase                      [90m# com/wiley/features/RetailStore.feature:52[0m
+  [32mGiven [0m[32mUser is displayed with the stock present[0m                    [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_displayed_with_the_stock_present()[0m
+  [32mWhen [0m[32muser logs in[0m                                                 [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_logs_in()[0m
+  [32mAnd [0m[32muser selects the items to purchase as Empathy-Do[0m              [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_selects_the_items_to_purchase_as_Empathy_Do()[0m
+  [32mAnd [0m[32muser enters the quantities as [0m[32m[1m4[0m                               [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_enters_the_quantities_as(java.lang.Integer)[0m
+  [32mThen [0m[32mselected items and quantities are validated[0m                  [90m# com.wiley.stepDefinitions.RetailStoreSteps.selected_items_and_quantities_are_validated()[0m
+  [32mAnd [0m[32muser is asked to either confirm purchase or select more items[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_asked_to_either_confirm_purchase_or_select_more_items()[0m
+
+@purchase
+Scenario Outline: Retail Store Portal purchase                      [90m# com/wiley/features/RetailStore.feature:53[0m
+  [32mGiven [0m[32mUser is displayed with the stock present[0m                    [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_displayed_with_the_stock_present()[0m
+  [32mWhen [0m[32muser logs in[0m                                                 [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_logs_in()[0m
+  [32mAnd [0m[32muser selects the items to purchase as The Finisher[0m            [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_selects_the_items_to_purchase_as_The_Finisher()[0m
+  [32mAnd [0m[32muser enters the quantities as [0m[32m[1m2[0m                               [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_enters_the_quantities_as(java.lang.Integer)[0m
+  [32mThen [0m[32mselected items and quantities are validated[0m                  [90m# com.wiley.stepDefinitions.RetailStoreSteps.selected_items_and_quantities_are_validated()[0m
+  [32mAnd [0m[32muser is asked to either confirm purchase or select more items[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_asked_to_either_confirm_purchase_or_select_more_items()[0m
+
+@confirm
+Scenario: Purchase Confirmation             [90m# com/wiley/features/RetailStore.feature:56[0m
+  [32mGiven [0m[32mUser confirms purchase[0m              [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_confirms_purchase()[0m
+  [32mWhen [0m[32mfinishing with item selection[0m        [90m# com.wiley.stepDefinitions.RetailStoreSteps.finishing_with_item_selection()[0m
+  [32mAnd [0m[32morder details are placed[0m              [90m# com.wiley.stepDefinitions.RetailStoreSteps.order_details_are_placed()[0m
+  [32mAnd [0m[32mtotal amount to be paid is displayed[0m  [90m# com.wiley.stepDefinitions.RetailStoreSteps.total_amount_to_be_paid_is_displayed()[0m
+  [32mAnd [0m[32mBill id is also displayed[0m             [90m# com.wiley.stepDefinitions.RetailStoreSteps.bill_id_is_also_displayed()[0m
+  [32mThen [0m[32mpurchase is confirmed[0m                [90m# com.wiley.stepDefinitions.RetailStoreSteps.purchase_is_confirmed()[0m
+  [32mAnd [0m[32morder details and stored in inventory[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.order_details_and_stored_in_inventory()[0m
+
+@view
+Scenario: Purchase History                     [90m# com/wiley/features/RetailStore.feature:66[0m
+  [32mGiven [0m[32mUser is displayed the purchase history[0m [90m# com.wiley.stepDefinitions.RetailStoreSteps.user_is_displayed_the_purchase_history()[0m
+  [32mWhen [0m[32mselecting View Purchases[0m                [90m# com.wiley.stepDefinitions.RetailStoreSteps.selecting_View_Purchases()[0m

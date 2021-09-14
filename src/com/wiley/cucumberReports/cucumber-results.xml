@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="1.005">
+<testcase classname="As a user I want to login to the Retail Store portal" name="Retail Store Portal Login" time="0.154">
+<system-out><![CDATA[Given User enters log in portal.............................................passed
+When user enters the portal link............................................passed
+And enters the email as "abc@gmail.com".....................................passed
+And enters password as 2468.................................................passed
+And user logs in............................................................passed
+Then credentials are verified...............................................passed
+And user is redirected to the main page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to login to the Retail Store portal" name="Retail Store Portal purchase" time="0.016">
+<system-out><![CDATA[Given User is displayed with the stock present..............................passed
+When user logs in...........................................................passed
+And user selects the items to purchase......................................passed
+And user enters the quantities..............................................passed
+Then selected items and quantities are validated............................passed
+And user is asked to either confirm purchase or select more items...........passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to login to the Retail Store portal" name="Retail Store Portal purchase 2" time="0.031">
+<system-out><![CDATA[Given User is displayed with the stock present..............................passed
+When user logs in...........................................................passed
+And user selects the items to purchase as Empathy-Do........................passed
+And user enters the quantities as 4.........................................passed
+Then selected items and quantities are validated............................passed
+And user is asked to either confirm purchase or select more items...........passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to login to the Retail Store portal" name="Retail Store Portal purchase 3" time="0.019">
+<system-out><![CDATA[Given User is displayed with the stock present..............................passed
+When user logs in...........................................................passed
+And user selects the items to purchase as The Finisher......................passed
+And user enters the quantities as 2.........................................passed
+Then selected items and quantities are validated............................passed
+And user is asked to either confirm purchase or select more items...........passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to login to the Retail Store portal" name="Purchase Confirmation" time="0.025">
+<system-out><![CDATA[Given User confirms purchase................................................passed
+When finishing with item selection..........................................passed
+And order details are placed................................................passed
+And total amount to be paid is displayed....................................passed
+And Bill id is also displayed...............................................passed
+Then purchase is confirmed..................................................passed
+And order details and stored in inventory...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to login to the Retail Store portal" name="Purchase History" time="0.009">
+<system-out><![CDATA[Given User is displayed the purchase history................................passed
+When selecting View Purchases...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
